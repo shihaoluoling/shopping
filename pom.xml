@@ -15,7 +15,9 @@
         <module>shopping-user-center</module>
         <module>shopping.web.utils</module>
         <module>shopping.inner.api</module>
-        <module>center</module>
+        <module>shopping-chat-center</module>
+        <module>shopping-message-center</module>
+        <module>shopping-cart-center</module>
     </modules>
 
 <!--jdk-->

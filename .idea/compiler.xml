@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shopping-product-center" />
-        <module name="hanfu-common" />
-        <module name="shopping-payment-center" />
+        <module name="shopping-web-utils" />
         <module name="shopping.inner.api" />
-        <module name="center" />
+        <module name="shopping-payment-center" />
+        <module name="shopping-user-center" />
         <module name="shopping.web.utils" />
         <module name="message" />
         <module name="shopping-order-center" />
         <module name="cart" />
-        <module name="shopping-user-center" />
+        <module name="hanfu-common" />
+        <module name="center" />
+        <module name="shopping-product-center" />
+        <module name="shopping-inner-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
