@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+    <mapper namespace="com.example.order.dao.ShopOrderSelectMapper">
+    <resultMap type="com.example.order.model.HfUser" id="BaseResultMap1">
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="source_type" property="sourceType" jdbcType="VARCHAR" />
+    <result column="nick_name" property="nickName" jdbcType="VARCHAR" />
+    <result column="real_name" property="realName" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="TINYINT" />
+    <result column="birth_day" property="birthDay" jdbcType="TIMESTAMP" />
+    <result column="user_status" property="userStatus" jdbcType="TINYINT" />
+    <result column="file_id" property="fileId" jdbcType="INTEGER" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="user_level" property="userLevel" jdbcType="TINYINT" />
+    <result column="last_auth_time" property="lastAuthTime" jdbcType="TIMESTAMP" />
+    <result column="region" property="region" jdbcType="VARCHAR" />
+    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
+    <result column="id_deleted" property="idDeleted" jdbcType="TINYINT" />
+    <!--HfOrderLogistics-->
+    <collection property="hfOrderLogisticsList" ofType="com.example.order.model.HfOrderLogistics" column="id">
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="orders_id" property="ordersId" jdbcType="INTEGER" />
+        <result column="order_detail_id" property="orderDetailId" jdbcType="INTEGER" />
+        <result column="user_id" property="userId" jdbcType="INTEGER" />
+        <result column="user_address_id" property="userAddressId" jdbcType="INTEGER" />
+        <result column="googs_id" property="googsId" jdbcType="INTEGER" />
+        <result column="logistics_order_name" property="logisticsOrderName" jdbcType="VARCHAR" />
+        <result column="resp_id" property="respId" jdbcType="INTEGER" />
+        <result column="logistics_orders_id" property="logisticsOrdersId" jdbcType="VARCHAR" />
+        <result column="logistics_company" property="logisticsCompany" jdbcType="VARCHAR" />
+        <result column="hf_desc" property="hfDesc" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+        <result column="last_modifier" property="lastModifier" jdbcType="VARCHAR" />
+        <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+    </collection>
+    <collection property="hfOrdersList" ofType="com.example.order.model.HfOrders" column="id">
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="user_id" property="userId" jdbcType="INTEGER" />
+        <result column="pay_status" property="payStatus" jdbcType="INTEGER" />
+        <result column="order_type" property="orderType" jdbcType="VARCHAR" />
+        <result column="amount" property="amount" jdbcType="INTEGER" />
+        <result column="pay_method_type" property="payMethodType" jdbcType="INTEGER" />
+        <result column="hf_memo" property="hfMemo" jdbcType="VARCHAR" />
+        <result column="hf_remark" property="hfRemark" jdbcType="VARCHAR" />
+        <result column="pay_method_name" property="payMethodName" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+        <result column="last_modifier" property="lastModifier" jdbcType="VARCHAR" />
+        <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+    </collection>
+    <collection property="hfOrdersDetailList" ofType="com.example.order.model.HfOrdersDetail" column="id">
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="orders_id" property="ordersId" jdbcType="INTEGER" />
+        <result column="resp_id" property="respId" jdbcType="INTEGER" />
+        <result column="order_detail_status" property="orderDetailStatus" jdbcType="VARCHAR" />
+        <result column="googs_id" property="googsId" jdbcType="INTEGER" />
+        <result column="hf_tax" property="hfTax" jdbcType="INTEGER" />
+        <result column="purchase_price" property="purchasePrice" jdbcType="INTEGER" />
+        <result column="purchase_quantity" property="purchaseQuantity" jdbcType="INTEGER" />
+        <result column="Distribution" property="distribution" jdbcType="VARCHAR" />
+        <result column="hf_desc" property="hfDesc" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+        <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+        <result column="last_modifier" property="lastModifier" jdbcType="VARCHAR" />
+        <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+    </collection>
+        <collection property="hfGoodsList" ofType="com.example.order.model.HfGoods" column="id">
+            <id column="id" property="id" jdbcType="INTEGER" />
+            <result column="hf_name" property="hfName" jdbcType="VARCHAR" />
+            <result column="instance_id" property="instanceId" jdbcType="INTEGER" />
+            <result column="product_id" property="productId" jdbcType="INTEGER" />
+            <result column="category_id" property="categoryId" jdbcType="INTEGER" />
+            <result column="stone_id" property="stoneId" jdbcType="INTEGER" />
+            <result column="boss_id" property="bossId" jdbcType="INTEGER" />
+            <result column="brand_id" property="brandId" jdbcType="INTEGER" />
+            <result column="resp_id" property="respId" jdbcType="INTEGER" />
+            <result column="price_id" property="priceId" jdbcType="INTEGER" />
+            <result column="goods_desc" property="goodsDesc" jdbcType="VARCHAR" />
+            <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+            <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+            <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+        </collection>
+    </resultMap>
+
+
+
+
+
+
+    <!--根据条件查询订单-->
+
+    <select id="selectOrder" resultMap="BaseResultMap">
+        SELECT *
+        FROM
+        hf_order_logistics h1
+        LEFT JOIN
+        hf_orders h2
+        ON h1.orders_id = h2.id
+        LEFT JOIN
+        hf_orders_detail  h3
+        ON   h1.order_detail_id = h3.id
+        LEFT JOIN
+        hf_user h4
+        ON   h1.user_id = h4.id
+        LEFT JOIN
+        hf_goods h5
+        ON   h1.googs_id = h5.id
+        LEFT JOIN
+        hf_user_address h6        ON h1.user_address_id =h6.id
+        WHERE 1=1
+        <if test="orderId!=null and ''!=orderId">
+            AND h2.id=#{ordersId}
+        </if>
+        <if test="hfName!=null and ''!=hfName">
+            AND  h5.hf_name like '%${hfName}%'
+        </if>
+        <if test="payMethodType!=null and ''!=payMethodType">
+            AND  h2.pay_method_type=#{payMethodType}
+        </if>
+        <if test="orderDetailStatus!=null and ''!=orderDetailStatus">
+            AND    h3.order_detail_status=#{orderDetailStatus}
+        </if>
+    </select>
+    </mapper>

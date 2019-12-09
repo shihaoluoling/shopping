@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopping-product-center" />
+        <module name="hanfu-common" />
+        <module name="shopping-payment-center" />
+        <module name="shopping.inner.api" />
+        <module name="center" />
+        <module name="shopping.web.utils" />
+        <module name="message" />
+        <module name="shopping-order-center" />
+        <module name="cart" />
+        <module name="shopping-user-center" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="11" />
+      <module name="shopping-common" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cart" options="-parameters" />
+      <module name="center" options="-parameters" />
+      <module name="message" options="-parameters" />
+      <module name="shopping-order-center" options="" />
+      <module name="shopping-payment-center" options="" />
+      <module name="shopping-product-center" options="" />
+      <module name="shopping-user-center" options="" />
+    </option>
+  </component>
+</project>

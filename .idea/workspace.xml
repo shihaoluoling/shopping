@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a3d298b-8334-40a5-bf8d-92e86f09fa60" name="默认的" comment="2019.12.9">
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/src/main/java/shoping/cart/center/cart/CartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/src/test/java/shoping/cart/center/cart/CartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/src/main/java/shopping/chat/center/center/CenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/src/test/java/shopping/chat/center/center/CenterApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hanfu-common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hanfu-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hanfu-common/src/main/java/com/hanfu/common/service/FileMangeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hanfu-common/src/main/java/com/hanfu/common/utils/FdfsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hanfu-common/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hanfu-common/src/main/resources/123" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hanfu-common/src/main/resources/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/king-words.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/main/java/shopping/message/center/message/MessageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/test/java/shopping/message/center/message/MessageApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/HfOrderLogisticsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/HfOrderStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/HfOrdersDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/HfOrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/ShopOrderSaveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/ShopOrderSelectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/ShopOrderUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrderLogistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrdersDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfUserAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfUserBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/OneOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/print/PrintUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/service/Impl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/resources/mappers/ShopOrderMapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/main/resources/mappers/ShopSelectOrderMapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-order-center/src/test/java/com/example/shoppingorder/ShoppingOrderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/src/main/java/com/example/payment/PaymentCenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/src/main/java/com/example/payment/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-payment-center/src/test/java/com/example/shoppingpaymentcenter/ShoppingPaymentCenterApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/controller/ShopGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/GoodsFileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopBrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopGoodsPictrueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopGoodsSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopWarehouseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShoppingHfRespMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/FileDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoodsPictrue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoodsPictrue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoodsPictrue3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoodsSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfWarehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/service/Impl/ShopGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/service/ShopGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/main/resources/mybatis-generater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-product-center/src/test/java/com/example/shoppingproduct/ShoppingProductApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/src/main/java/com/example/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/src/main/java/com/example/user/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-user-center/src/test/java/com/example/shoppinguser/ShoppingUserApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.inner.api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/shopping.web.utils.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/src/main/java/com/shopping/utils/response/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/src/main/java/com/shopping/utils/response/handler/ResponseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/src/main/java/com/shopping/utils/response/handler/ResponseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseEntity$BodyBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseEntity$DefaultBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseEntity$HeadersBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/king-words.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/king-words.log.2019-12-02.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/king-words.log.2019-12-03.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/king-words.log.2019-12-04.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/king-words.log.2019-12-05.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/king-words.log.2019-12-06.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/king-words.log.2019-12-06.1.gz" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-product/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-order/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-user/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-user-center/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-payment-center/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-product-center/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-order-center/target/" />
+    <ignored path="$PROJECT_DIR$/shopping.web.utils/target/" />
+    <ignored path="$PROJECT_DIR$/shopping.inner.api/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-common/target/" />
+    <ignored path="$PROJECT_DIR$/hanfu-common/target/" />
+    <ignored path="$PROJECT_DIR$/center/target/" />
+    <ignored path="$PROJECT_DIR$/message/target/" />
+    <ignored path="$PROJECT_DIR$/cart/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/controller/ShopGoodsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="203" column="157" selection-start-line="203" selection-start-column="157" selection-end-line="203" selection-end-column="157" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfPrice.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopGoodsSpec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/service/Impl/ShopGoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductSpec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopGoodsPictrueMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="15" column="7" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoodsPictrue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="136" column="47" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>han</find>
+      <find>spring</find>
+      <find>parent</find>
+      <find>mirror</find>
+      <find>dao</find>
+      <find>mappers</find>
+      <find>con</find>
+      <find>context</find>
+      <find>mybatis</find>
+      <find>orderDetailStatus</find>
+      <find>address</find>
+      <find>createTime</find>
+      <find>hanfu</find>
+      <find>fileMangeService</find>
+      <find>fdfs_client.conf</find>
+      <find>mvnw</find>
+      <find>comm</find>
+      <find>info</find>
+      <find>ordersId</find>
+      <find>updateUser</find>
+      <find>swagger</find>
+      <find>swagg</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/src/main/resources/mvnw" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/1.conf.kt" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/hanfu/common/utils/FdfsClient.java" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/shopping-common/src/main/java/shopping/common/utils/FdfsClient.java" />
+        <option value="$PROJECT_DIR$/shopping-common/src/main/java/shopping/common/service/FileMangeService.java" />
+        <option value="$PROJECT_DIR$/shopping-common/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/hanfu-common/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-user-center/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-product-center/pom.xml" />
+        <option value="$PROJECT_DIR$/hanfu-common/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/GoodsPictrueRequest.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/CommonRequest.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopGoodsPictrueMapper.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/FileDesc.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/OneOrder.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/resources/mappers/ShopSelectOrderMapping.xml" />
+        <option value="$PROJECT_DIR$/shopping-order-center/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/HfOrderLogisticsMapper.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfGoods.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrderLogistics.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrders.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrdersDetail.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrderStatus.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfUser.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/resources/mappers/ShopOrderMapping.xml" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/ShopOrderSelectMapper.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/service/OrdersService.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/service/Impl/OrdersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfCategory.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfBrand.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfResp.java" />
+        <option value="$PROJECT_DIR$/cart/src/main/java/shoping/cart/center/cart/CartApplication.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoods.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShoppingHfRespMapper.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfWarehouse.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopCategory.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopBrandMapper.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/service/ShopGoodsService.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/service/Impl/ShopGoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopWarehouse.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopWarehouseMapper.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoodsPictrue.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductSpec.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfPrice.java" />
+        <option value="$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/controller/ShopGoodsController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="344" />
+    <option name="y" value="148" />
+    <option name="width" value="1038" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-order-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-order-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-order-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-order-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-order-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-order-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-order-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-order-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-product-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PROGUARD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37697518" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.product.model" />
+      <recent name="com.example.order.model" />
+      <recent name="com.example.user.config" />
+      <recent name="com.example.product.config" />
+      <recent name="com.example.payment.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\思创\Desktop\shopping" />
+      <recent name="C:\Users\思创\Desktop\shopping\common\src\main\resources" />
+      <recent name="C:\Users\思创\Desktop\shopping\common\src\main\java" />
+      <recent name="C:\Users\思创\Desktop\shopping\shopping-common\src\main\java\shopping\common" />
+      <recent name="C:\Users\思创\Desktop\shopping\shopping-common\src\main\java\shopping\common\service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.14448053" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShoppingProductApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="common" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="common" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shoping.cart.center.cart.CartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shopping.chat.center.center.CenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="message" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shopping.message.center.message.MessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-order-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.order.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingPaymentCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-payment-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.payment.PaymentCenterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-product-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-user-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.user.UserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-user-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ShoppingOrderApplication" />
+      <item itemvalue="Spring Boot.ShoppingPaymentCenterApplication" />
+      <item itemvalue="Spring Boot.ShoppingProductApplication" />
+      <item itemvalue="Spring Boot.ShoppingUserApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.CenterApplication" />
+      <item itemvalue="Spring Boot.MessageApplication" />
+      <item itemvalue="Spring Boot.CartApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a3d298b-8334-40a5-bf8d-92e86f09fa60" name="默认的" comment="" />
+      <created>1575253632009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575253632009</updated>
+      <workItem from="1575253637085" duration="5171000" />
+      <workItem from="1575258999328" duration="258000" />
+      <workItem from="1575260782178" duration="4103000" />
+      <workItem from="1575264912820" duration="14382000" />
+      <workItem from="1575334272128" duration="21392000" />
+      <workItem from="1575360829878" duration="407000" />
+      <workItem from="1575361302904" duration="4436000" />
+      <workItem from="1575420271414" duration="21286000" />
+      <workItem from="1575446835445" duration="3629000" />
+      <workItem from="1575507687245" duration="26556000" />
+      <workItem from="1575539640239" duration="291000" />
+      <workItem from="1575592872883" duration="474000" />
+      <workItem from="1575593377148" duration="262000" />
+      <workItem from="1575593658351" duration="24767000" />
+      <workItem from="1575853347479" duration="25257000" />
+    </task>
+    <task id="LOCAL-00001" summary="单商户商城架构">
+      <created>1575267418377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575267418377</updated>
+    </task>
+    <task id="LOCAL-00002" summary="单商户商城架构">
+      <created>1575267724050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575267724050</updated>
+    </task>
+    <task id="LOCAL-00003" summary="单商户商城架构">
+      <created>1575268022103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575268022103</updated>
+    </task>
+    <task id="LOCAL-00004" summary="单商户商城架构">
+      <created>1575268376965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575268376965</updated>
+    </task>
+    <task id="LOCAL-00005" summary="单商户商城架构">
+      <created>1575271046823</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575271046823</updated>
+    </task>
+    <task id="LOCAL-00006" summary="默认的">
+      <created>1575598915085</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575598915085</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2019.12.9">
+      <created>1575861650306</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575861650306</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2019.12.9">
+      <created>1575862098681</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575862098681</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2019.12.9">
+      <created>1575879264013</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575879264013</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152671000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="设计师" order="7" />
+      <window_info id="Designer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.39587852" />
+      <window_info anchor="bottom" id="消息" order="11" weight="0.3286334" />
+      <window_info anchor="bottom" id="运行" order="12" sideWeight="0.4989339" weight="0.29501083" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="调试" order="16" weight="0.32936078" />
+      <window_info anchor="bottom" id="运行仪表板" order="17" sideWeight="0.4989339" visible="true" weight="0.45010847" />
+      <window_info anchor="bottom" id="找到" order="18" weight="0.329718" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.4989339" weight="0.19739696" />
+      <window_info anchor="bottom" id="Messages" order="20" weight="0.39696312" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.46830267" />
+      <window_info anchor="right" id="控制板" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="MyBatisCode" order="9" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Palette" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="单商户商城架构" />
+    <MESSAGE value="默认的" />
+    <MESSAGE value="2019.12.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019.12.9" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/center/pom.xml">
+      <expanded value="true" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/ShopOrderSaveMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/HfOrderStatusMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/HfOrdersDetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/HfOrderLogisticsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/HfOrdersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/resources/mappers/ShopSelectOrderMapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/ShopOrderUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/resources/mappers/ShopOrderMapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="231" column="30" selection-start-line="231" selection-start-column="16" selection-end-line="231" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/service/OrdersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/dao/ShopOrderSelectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ShopBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoodsSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="137" column="43" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrdersDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="136" column="43" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="240" column="43" selection-start-line="240" selection-start-column="43" selection-end-line="240" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrderLogistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/ProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/model/HfOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfResp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/service/Impl/OrdersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="58" column="30" selection-start-line="57" selection-start-column="8" selection-end-line="58" selection-end-column="30" />
+          <folding>
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#2290#2291#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="e#2403#2404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center/src/main/java/shopping/chat/center/center/CenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/src/main/java/shoping/cart/center/cart/CartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfWarehouse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShoppingHfRespMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopGoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopBrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/service/ShopGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfBrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopWarehouseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/GoodsFileMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/FileDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopGoodsPictrueMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoodsPictrue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="7" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ProductSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/dao/ShopGoodsSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/service/Impl/ShopGoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-order-center/src/main/java/com/example/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="136" column="47" selection-start-line="136" selection-start-column="43" selection-end-line="136" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfPrice.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/controller/ShopGoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="203" column="157" selection-start-line="203" selection-start-column="157" selection-end-line="203" selection-end-column="157" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37697518" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37697518" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37697518" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37697518" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37697518" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37697518" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
