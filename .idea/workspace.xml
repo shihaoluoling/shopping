@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3d298b-8334-40a5-bf8d-92e86f09fa60" name="默认的" comment="2019.12.9    合并">
-      <change afterPath="$PROJECT_DIR$/shopping-cart-center/src/main/java/shopping/cart/center/CartCenterApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart-center/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart-center/src/test/java/shoping/cart/center/cart/CartApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart-center/src/test/java/shopping/cart/center/CartApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-chat-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-chat-center/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-chat-center/src/main/java/shopping/chat/center/center/CenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-chat-center/src/main/java/shopping/chat/center/ChatCenterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-chat-center/src/test/java/shopping/chat/center/center/CenterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-chat-center/src/test/java/shopping/chat/center/CenterApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-message-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-message-center/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanfu-common/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/common/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanfu-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanfu-common/src/main/java/com/hanfu/common/service/FileMangeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/hanfu/common/service/FileMangeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanfu-common/src/main/java/com/hanfu/common/utils/FdfsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/hanfu/common/utils/FdfsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanfu-common/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanfu-common/src/main/resources/123" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/123" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanfu-common/src/main/resources/fdfs_client.conf" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/fdfs_client.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.inner.api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-inner-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/shopping.web.utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/shopping.web.utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/src/main/java/com/shopping/utils/response/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/src/main/java/com/shopping/utils/response/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/src/main/java/com/shopping/utils/response/handler/ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/src/main/java/com/shopping/utils/response/handler/ResponseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/src/main/java/com/shopping/utils/response/handler/ResponseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/src/main/java/com/shopping/utils/response/handler/ResponseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/target/classes/com/shopping/utils/response/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseEntity$BodyBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/target/classes/com/shopping/utils/response/handler/ResponseEntity$BodyBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseEntity$DefaultBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/target/classes/com/shopping/utils/response/handler/ResponseEntity$DefaultBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseEntity$HeadersBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/target/classes/com/shopping/utils/response/handler/ResponseEntity$HeadersBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/target/classes/com/shopping/utils/response/handler/ResponseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.web.utils/target/classes/com/shopping/utils/response/handler/ResponseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web-utils/target/classes/com/shopping/utils/response/handler/ResponseUtils.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,38 +54,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping-chat-center/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shopping-cart-center/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping-order-center/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="165" column="19" selection-start-line="14" selection-start-column="2" selection-end-line="165" selection-end-column="19" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,7 +97,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="合并" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -179,7 +160,21 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="message" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="message" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -204,46 +199,6 @@
             <path>
               <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping-cart-center" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping-cart-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping-cart-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping-cart-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping-cart-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="center" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping-order-center" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,42 +312,42 @@
       </method>
     </configuration>
     <configuration name="CartApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cart" />
+      <module name="shopping-cart-center" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="shoping.cart.center.CartApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CartApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cart" />
+      <module name="shopping-cart-center" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="shopping.cart.center.CartCenterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cart" />
+      <module name="shopping-cart-center" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="shoping.cart.center.cart.CartApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CenterApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="center" />
+      <module name="shopping-chat-center" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="shopping.chat.center.ChatCenterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="center" />
+      <module name="shopping-chat-center" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="shopping.chat.center.center.CenterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="message" />
+      <module name="shopping-message-center" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="shopping.message.center.message.MessageApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -541,15 +496,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575879264013</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2019.12.9    合并">
+      <created>1575887147876</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575887147876</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155409000" />
+    <option name="totallyTimeSpent" value="156148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28655282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -562,7 +523,7 @@
       <window_info id="Designer" order="8" />
       <window_info id="JRebel" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286638" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -610,7 +571,8 @@
     <MESSAGE value="单商户商城架构" />
     <MESSAGE value="默认的" />
     <MESSAGE value="2019.12.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019.12.9" />
+    <MESSAGE value="2019.12.9    合并" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019.12.9    合并" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -620,17 +582,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shopping-chat-center/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/ShopBasic.java" />
-    <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/HfGoodsSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping-product-center/src/main/java/com/example/product/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -961,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-user-center/src/main/java/com/example/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -984,14 +928,6 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-chat-center/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1001,7 +937,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping-order-center/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
+        <state relative-caret-position="4950">
           <caret line="165" column="19" selection-start-line="14" selection-start-column="2" selection-end-line="165" selection-end-column="19" />
         </state>
       </provider>
@@ -1009,8 +945,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping-cart-center/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+        <state relative-caret-position="330">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-chat-center/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-user-center/src/main/java/com/example/user/model/FileDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-user-center/src/main/java/com/example/user/dao/FileDescMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-user-center/src/main/java/com/example/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-inner-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
