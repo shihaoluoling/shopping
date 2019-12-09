@@ -1,4 +1,4 @@
-package shopping.chat.center.center;
+package shopping.chat.center;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

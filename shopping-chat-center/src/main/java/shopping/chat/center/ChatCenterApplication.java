@@ -1,13 +1,13 @@
-package shopping.chat.center.center;
+package shopping.chat.center;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CenterApplication {
+public class ChatCenterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CenterApplication.class, args);
+        SpringApplication.run(ChatCenterApplication.class, args);
     }
 
 }

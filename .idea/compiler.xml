@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="center" />
         <module name="shopping-web-utils" />
-        <module name="shopping.inner.api" />
         <module name="shopping-payment-center" />
-        <module name="shopping-user-center" />
+        <module name="shopping.inner.api" />
+        <module name="shopping-product-center" />
         <module name="shopping.web.utils" />
         <module name="message" />
         <module name="shopping-order-center" />
         <module name="cart" />
         <module name="hanfu-common" />
-        <module name="center" />
-        <module name="shopping-product-center" />
+        <module name="shopping-user-center" />
         <module name="shopping-inner-api" />
       </profile>
     </annotationProcessing>
@@ -27,9 +27,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cart" options="-parameters" />
-      <module name="center" options="-parameters" />
-      <module name="message" options="-parameters" />
+      <module name="cart" options="" />
+      <module name="center" options="" />
+      <module name="message" options="" />
       <module name="shopping-order-center" options="" />
       <module name="shopping-payment-center" options="" />
       <module name="shopping-product-center" options="" />
