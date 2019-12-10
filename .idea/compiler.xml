@@ -6,22 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shopping.web.utils" />
         <module name="shopping-web-utils" />
-        <module name="shopping-payment-center" />
+        <module name="shopping-cart-center" />
         <module name="shopping.inner.api" />
         <module name="shopping-product-center" />
-        <module name="shopping.web.utils" />
-        <module name="shopping-cart-center" />
+        <module name="center" />
         <module name="shopping-order-center" />
         <module name="shopping-message-center" />
-        <module name="shopping-chat-center" />
-        <module name="shopping-user-center" />
         <module name="shopping-inner-api" />
+        <module name="message" />
+        <module name="shopping-payment-center" />
+        <module name="shopping-user-center" />
+        <module name="shopping-chat-center" />
+        <module name="cart" />
         <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hanfu-common" target="11" />
       <module name="shopping-common" target="11" />
+      <module name="shopping.inner.api" target="11" />
+      <module name="shopping.web.utils" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
