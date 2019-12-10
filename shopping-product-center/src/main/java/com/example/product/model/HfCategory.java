@@ -1,9 +1,19 @@
 package com.example.product.model;
 
+import io.swagger.annotations.ApiModelProperty;
+import tk.mybatis.mapper.annotation.KeySql;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.time.LocalDateTime;
 import java.util.Date;
 
 public class HfCategory {
+    @KeySql(useGeneratedKeys = true)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @ApiModelProperty(name = "CategoryId")
     private Integer id;
 
     private String hfName;

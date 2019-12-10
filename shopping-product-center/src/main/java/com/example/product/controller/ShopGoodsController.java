@@ -52,6 +52,10 @@ public class ShopGoodsController {
     private ShopCategoryMapper shopCategoryMapper;
     @Autowired
     private ShopWarehouseMapper shopWarehouseMapper;
+    @Autowired
+    private ShopBrandMapper shopBrandMapper;
+    @Autowired
+    private ShopPriceMapper shopPriceMapper;
     @ApiOperation(value = "获取商品goods", notes = "获取商品")
     @RequestMapping(value = "/selectGoods", method = RequestMethod.GET)
     public ResponseEntity<JSONObject> selectGoods() throws JSONException {
@@ -201,9 +205,46 @@ public class ShopGoodsController {
 
     @ApiOperation(value = "修改商品信息", notes = "修改商品信息")
     @RequestMapping(value = "/updateOrder", method = RequestMethod.GET)
+    @ApiImplicitParams({
+            @ApiImplicitParam(paramType = "query", name = "categoryId", value = "类目Id", required = true, type = "VARCHAR"),
+            @ApiImplicitParam(paramType = "query", name = "brandId", value = "品牌Id", required = true, type = "VARCHAR"),
+            @ApiImplicitParam(paramType = "query", name = "WarehouseId", value = "仓库Id", required = true, type = "VARCHAR")
+    })
     public ResponseEntity<JSONObject> updateOrder(HfGoods hfGoods,HfCategory hfCategory,HfBrand hfBrand,HfResp hfResp,HfPrice hfPrice) throws JSONException {
+        hfGoods.setCreateTime(LocalDateTime.now());
+        hfGoods.setModifyTime(LocalDateTime.now());
+        hfGoods.setIsDeleted((short) 0);
+        shopGoodsMapper.updateByPrimaryKeySelective(hfGoods);
 
+        //类目，给类目Id hfCategory
+        hfCategory.setCreateTime(LocalDateTime.now());
+        hfCategory.setModifyTime(LocalDateTime.now());
+        hfCategory.setIsDeleted((short) 0);
+        hfCategory.setId(hfGoods.getId());
+        shopCategoryMapper.updateByPrimaryKeySelective(hfCategory);
+        //品牌，给品牌id hfBrand
+        hfBrand.setCreateTime(LocalDateTime.now());
+        hfBrand.setModifyTime(LocalDateTime.now());
+        hfBrand.setIsDeleted((short) 0);
+        hfBrand.setId(hfGoods.getBrandId());
+        shopBrandMapper.updateByPrimaryKeySelective(hfBrand);
+        //库存，给goodsid hfResp
+        hfResp.setCreateTime(LocalDateTime.now());
+        hfResp.setModifyTime(LocalDateTime.now());
+        hfResp.setIsDeleted((short) 0);
+        Example example = new Example(HfResp.class);
+        Example.Criteria criteria = example.createCriteria();
+        criteria.andEqualTo("id", hfGoods.getRespId());
+        shoppingHfRespMapper.updateByExampleSelective(hfResp, example);
+        //价格 goodsid hfPrice
+        hfPrice.setCreateTime(LocalDateTime.now());
+        hfPrice.setModifyTime(LocalDateTime.now());
+        hfPrice.setIsDeleted((short) 0);
+        Example example1 = new Example(HfPrice.class);
+        Example.Criteria criteria1 = example1.createCriteria();
+        criteria1.andEqualTo("id",hfGoods.getPriceId());
+        shopPriceMapper.updateByExampleSelective(hfPrice, example1);
         BodyBuilder builder = ResponseUtils.getBodyBuilder(HttpStatus.OK);
-        return builder.body(ResponseUtils.getResponseBody(shopGoodsService.selectGoods()));
+        return builder.body(ResponseUtils.getResponseBody(hfGoods.getId()));
     }
 }
