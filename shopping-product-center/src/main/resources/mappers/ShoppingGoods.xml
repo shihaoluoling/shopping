@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.product.dao.ShopGoodsAllMapper">
+    <resultMap type="com.example.product.model.ShoppingGoodsAll" id="BaseResultMap222">
+        <collection property="hfGoodsList" ofType="com.example.product.model.HfGoods" column="id">
+            <id column="goodsId" property="id" jdbcType="INTEGER" />
+            <result column="goodsName" property="hfName" jdbcType="VARCHAR" />
+            <result column="instance_id" property="instanceId" jdbcType="INTEGER" />
+            <result column="product_id" property="productId" jdbcType="INTEGER" />
+            <result column="category_id" property="categoryId" jdbcType="INTEGER" />
+            <result column="stone_id" property="stoneId" jdbcType="INTEGER" />
+            <result column="boss_id" property="bossId" jdbcType="INTEGER" />
+            <result column="brand_id" property="brandId" jdbcType="INTEGER" />
+            <result column="resp_id" property="respId" jdbcType="INTEGER" />
+            <result column="price_id" property="priceId" jdbcType="INTEGER" />
+            <result column="goods_desc" property="goodsDesc" jdbcType="VARCHAR" />
+            <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+            <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+            <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+        </collection>
+        <collection property="hfCategoryList" ofType="com.example.product.model.HfCategory" column="id">
+            <id column="categoryId" property="id" jdbcType="INTEGER" />
+            <result column="categoryName" property="hfName" jdbcType="VARCHAR" />
+            <result column="parent_category_id" property="parentCategoryId" jdbcType="INTEGER" />
+            <result column="level_id" property="levelId" jdbcType="INTEGER" />
+            <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+            <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+            <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+        </collection>
+
+        <collection property="hfBrandList" ofType="com.example.product.model.HfBrand" column="id">
+            <id column="brandId" property="id" jdbcType="INTEGER" />
+            <result column="brandName" property="hfName" jdbcType="VARCHAR" />
+            <result column="brand_type" property="brandType" jdbcType="VARCHAR" />
+            <result column="hf_desc" property="hfDesc" jdbcType="VARCHAR" />
+            <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+            <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+            <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+        </collection>
+
+        <collection property="hfRespList" ofType="com.example.product.model.HfResp" column="id">
+            <id column="respId" property="id" jdbcType="INTEGER" />
+            <result column="googs_id" property="googsId" jdbcType="INTEGER" />
+            <result column="warehouse_id" property="warehouseId" jdbcType="INTEGER" />
+            <result column="quantity" property="quantity" jdbcType="VARCHAR" />
+            <result column="hf_status" property="hfStatus" jdbcType="INTEGER" />
+            <result column="hf_desc" property="hfDesc" jdbcType="VARCHAR" />
+            <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+            <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+            <result column="last_modifier" property="lastModifier" jdbcType="VARCHAR" />
+            <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+        </collection>
+
+        <collection property="hfWarehouseList" ofType="com.example.product.model.HfWarehouse" column="id">
+            <id column="warehouseId" property="id" jdbcType="INTEGER" />
+            <result column="warehouseName" property="hfName" jdbcType="VARCHAR" />
+            <result column="hf_region" property="hfRegion" jdbcType="VARCHAR" />
+            <result column="hf_desc" property="hfDesc" jdbcType="VARCHAR" />
+            <result column="bossId" property="bossid" jdbcType="INTEGER" />
+            <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+            <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+            <result column="last_modifier" property="lastModifier" jdbcType="VARCHAR" />
+            <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+        </collection>
+
+        <collection property="hfPriceList" ofType="com.example.product.model.HfPrice" column="id">
+            <id column="priceId" property="id" jdbcType="INTEGER" />
+            <result column="googs_id" property="googsId" jdbcType="INTEGER" />
+            <result column="price_mode_id" property="priceModeId" jdbcType="INTEGER" />
+            <result column="sell_price" property="sellPrice" jdbcType="INTEGER" />
+            <result column="is_use_price_mode" property="isUsePriceMode" jdbcType="SMALLINT" />
+            <result column="hf_desc" property="hfDesc" jdbcType="VARCHAR" />
+            <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+            <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+            <result column="last_modifier" property="lastModifier" jdbcType="VARCHAR" />
+            <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+        </collection>
+        <collection property="hfGoodsSpecList" ofType="com.example.product.model.HfGoodsSpec" column="id">
+            <id column="specId" property="id" jdbcType="INTEGER" />
+            <result column="goods_id" property="goodsId" jdbcType="INTEGER" />
+            <result column="hf_spec_id" property="hfSpecId" jdbcType="VARCHAR" />
+            <result column="category_spec_id" property="categorySpecId" jdbcType="INTEGER" />
+            <result column="hf_value" property="hfValue" jdbcType="VARCHAR" />
+            <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+            <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+            <result column="last_modifier" property="lastModifier" jdbcType="VARCHAR" />
+            <result column="is_deleted" property="isDeleted" jdbcType="SMALLINT" />
+        </collection>
+    </resultMap>
+
+<select id="SelectGoodsAll" resultMap="BaseResultMap222">
+    select h1.hf_name goodsName,h2.hf_name categoryName,
+       h3.hf_name brandName,h4.quantity,
+			 h5.hf_name warehouseName,sell_price,h7.hf_value,
+			 h1.id goodsId,h2.id categoryId,
+			 h3.id brandId,h4.id respId,
+			 h5.id warehouseId,h6.id priceId,
+			 h7.id specId
+			 from hf_goods h1
+			 left join
+			 hf_category h2
+			 on
+			 h1.category_id = h2.id
+			 left join
+			 hf_brand h3
+			 on
+			 h1.brand_id=h3.id
+			 left join hf_resp h4
+			 on
+			 h1.id=h4.googs_id
+			 left join hf_warehouse h5
+			 on
+			 h4.warehouse_id=h5.id
+			 left join hf_price h6
+			 on
+			 h1.id=h6.googs_id
+			 left join hf_goods_spec h7
+			 on
+			 h1.id=h7.goods_id;
+</select>
+    <delete id="deleteGoodsAll">
+            delete h1,h2,h3,h4,h5,h6,h7
+			 from hf_goods h1
+			 left join
+			 hf_category h2
+			 on
+			 h1.category_id = h2.id
+			 left join
+			 hf_brand h3
+			 on
+			 h1.brand_id=h3.id
+			 left join hf_resp h4
+			 on
+			 h1.id=h4.googs_id
+			 left join hf_warehouse h5
+			 on
+			 h4.warehouse_id=h5.id
+			 left join hf_price h6
+			 on
+			 h1.id=h6.googs_id
+			 left join hf_goods_spec h7
+			 on
+			 h1.id=h7.goods_id
+			 where
+			 h1.id = #{id};
+    </delete>
+
+</mapper>

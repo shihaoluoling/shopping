@@ -160,7 +160,7 @@ public class OrderController {
             hfOrderLogistics.setModifyTime(LocalDateTime.now());
             Example example = new Example(HfOrderLogistics.class);
             Example.Criteria criteria = example.createCriteria();
-            criteria.andEqualTo("id", hfOrder.getId());
+            criteria.andEqualTo("ordersId", hfOrder.getId());
             hfOrderLogisticsMapper.updateByExampleSelective(hfOrderLogistics, example);
             System.out.println(hfOrderLogistics.getId() + "---" + hfOrderLogistics.getUserId());
 
@@ -169,7 +169,7 @@ public class OrderController {
             hfOrdersDetail.setModifyTime(LocalDateTime.now());
             Example example1 = new Example(HfOrdersDetail.class);
             Example.Criteria criteria1 = example1.createCriteria();
-            criteria1.andEqualTo("id", hfOrder.getId());
+            criteria1.andEqualTo("ordersId", hfOrder.getId());
             hfOrdersDetailMapper.updateByExampleSelective(hfOrdersDetail, example1);
             System.out.println(hfOrdersDetail.getId());
         }

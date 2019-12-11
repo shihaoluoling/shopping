@@ -2,10 +2,12 @@ package com.example.product.service.Impl;
 
 import com.example.product.dao.ShopBrandMapper;
 import com.example.product.dao.ShopCategoryMapper;
+import com.example.product.dao.ShopGoodsAllMapper;
 import com.example.product.dao.ShopGoodsMapper;
 import com.example.product.model.HfBrand;
 import com.example.product.model.HfCategory;
 import com.example.product.model.HfGoods;
+import com.example.product.model.ShoppingGoodsAll;
 import com.example.product.service.ShopGoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,6 +22,8 @@ public class ShopGoodsServiceImpl implements ShopGoodsService {
     private ShopCategoryMapper shopCategoryMapper;
     @Autowired
     private ShopBrandMapper shopBrandMapper;
+    @Autowired
+    private ShopGoodsAllMapper shopGoodsAllMapper;
 
     @Override
     public List<HfGoods> selectGoods() {
@@ -47,5 +51,15 @@ public class ShopGoodsServiceImpl implements ShopGoodsService {
         int goodsId = hfGoods.getId();
         System.out.println(goodsId);
         return goodsId;
+    }
+
+    @Override
+    public List<ShopGoodsAllMapper> SelectGoodsAll() {
+        return shopGoodsAllMapper.SelectGoodsAll();
+    }
+
+    @Override
+    public int deleteGoodsAll(int GoodsId) {
+        return shopGoodsAllMapper.deleteGoodsAll(GoodsId);
     }
 }

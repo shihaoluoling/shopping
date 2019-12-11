@@ -1,9 +1,17 @@
 package com.example.product.model;
 
+import tk.mybatis.mapper.annotation.KeySql;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.time.LocalDateTime;
 import java.util.Date;
 
 public class HfBrand {
+    @KeySql(useGeneratedKeys = true)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
     private Integer id;
 
     private String hfName;

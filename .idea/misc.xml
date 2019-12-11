@@ -13,11 +13,13 @@
         <option value="$PROJECT_DIR$/center/pom.xml" />
         <option value="$PROJECT_DIR$/message/pom.xml" />
         <option value="$PROJECT_DIR$/cart/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-web-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-inner-api/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/shopping-common/pom.xml" />
       </set>
     </option>

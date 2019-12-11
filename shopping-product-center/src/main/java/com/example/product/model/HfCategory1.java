@@ -6,15 +6,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.time.LocalDateTime;
-import java.util.Date;
 
-public class HfCategory {
+public class HfCategory1 {
     @KeySql(useGeneratedKeys = true)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Integer id;
 
-    private String hfName;
+    private String chfName;
 
     private Integer parentCategoryId;
 
@@ -34,12 +33,12 @@ public class HfCategory {
         this.id = id;
     }
 
-    public String getHfName() {
-        return hfName;
+    public String getChfName() {
+        return chfName;
     }
 
-    public void setHfName(String hfName) {
-        this.hfName = hfName == null ? null : hfName.trim();
+    public void setChfName(String chfName) {
+        this.chfName = chfName;
     }
 
     public Integer getParentCategoryId() {

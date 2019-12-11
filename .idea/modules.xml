@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hanfu-common/hanfu-common.iml" filepath="$PROJECT_DIR$/hanfu-common/hanfu-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopping.inner.api/shopping.inner.api.iml" filepath="$PROJECT_DIR$/shopping.inner.api/shopping.inner.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopping.web.utils/shopping.web.utils.iml" filepath="$PROJECT_DIR$/shopping.web.utils/shopping.web.utils.iml" />
     </modules>

@@ -1,8 +1,17 @@
 package com.example.product.model;
 
+import tk.mybatis.mapper.annotation.KeySql;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class HfGoodsSpec {
+    @KeySql(useGeneratedKeys = true)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
     private Integer id;
 
     private Integer goodsId;
@@ -13,9 +22,9 @@ public class HfGoodsSpec {
 
     private String hfValue;
 
-    private Date createTime;
+    private LocalDateTime createTime;
 
-    private Date modifyTime;
+    private LocalDateTime modifyTime;
 
     private String lastModifier;
 
@@ -61,19 +70,19 @@ public class HfGoodsSpec {
         this.hfValue = hfValue == null ? null : hfValue.trim();
     }
 
-    public Date getCreateTime() {
+    public LocalDateTime getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(Date createTime) {
+    public void setCreateTime(LocalDateTime createTime) {
         this.createTime = createTime;
     }
 
-    public Date getModifyTime() {
+    public LocalDateTime getModifyTime() {
         return modifyTime;
     }
 
-    public void setModifyTime(Date modifyTime) {
+    public void setModifyTime(LocalDateTime modifyTime) {
         this.modifyTime = modifyTime;
     }
 
