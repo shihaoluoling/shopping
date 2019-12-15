@@ -8,6 +8,6 @@ import tk.mybatis.mapper.entity.Example;
 
 
 @Mapper
-public interface HfOrderLogisticsMapper extends tk.mybatis.mapper.common.Mapper<HfOrderLogistics>, ExampleMapper<HfOrderLogistics> {
+public interface HfOrderLogisticsMapper extends tk.mybatis.mapper.common.Mapper<HfOrderLogistics>{
 
 }

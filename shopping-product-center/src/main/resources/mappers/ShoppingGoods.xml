@@ -145,4 +145,68 @@
 			 h1.id = #{id};
     </delete>
 
+    <select id="selectCategory" resultMap="BaseResultMap222">
+            select h1.hf_name goodsName,h2.hf_name categoryName,
+       h3.hf_name brandName,h4.quantity,
+			 h5.hf_name warehouseName,sell_price,h7.hf_value,
+			 h1.id goodsId,h2.id categoryId,
+			 h3.id brandId,h4.id respId,
+			 h5.id warehouseId,h6.id priceId,
+			 h7.id specId
+			 from hf_goods h1
+			 left join
+			 hf_category h2
+			 on
+			 h1.category_id = h2.id
+			 left join
+			 hf_brand h3
+			 on
+			 h1.brand_id=h3.id
+			 left join hf_resp h4
+			 on
+			 h1.id=h4.googs_id
+			 left join hf_warehouse h5
+			 on
+			 h4.warehouse_id=h5.id
+			 left join hf_price h6
+			 on
+			 h1.id=h6.googs_id
+			 left join hf_goods_spec h7
+			 on
+			 h1.id=h7.goods_id
+			 where h1.category_id=#{id};
+    </select>
+        <select id="selectQuantity" resultType="INTEGER">
+            SELECT COUNT(*) FROM hf_goods;
+        </select>
+    <select id="orderParticulars" resultMap="BaseResultMap222">
+            select h1.hf_name goodsName,h2.hf_name categoryName,
+       h3.hf_name brandName,h4.quantity,
+			 h5.hf_name warehouseName,sell_price,h7.hf_value,
+			 h1.id goodsId,h2.id categoryId,
+			 h3.id brandId,h4.id respId,
+			 h5.id warehouseId,h6.id priceId,
+			 h7.id specId
+			 from hf_goods h1
+			 left join
+			 hf_category h2
+			 on
+			 h1.category_id = h2.id
+			 left join
+			 hf_brand h3
+			 on
+			 h1.brand_id=h3.id
+			 left join hf_resp h4
+			 on
+			 h1.id=h4.googs_id
+			 left join hf_warehouse h5
+			 on
+			 h4.warehouse_id=h5.id
+			 left join hf_price h6
+			 on
+			 h1.id=h6.googs_id
+			 left join hf_goods_spec h7
+			 on
+			 h1.id=h7.goods_id where h1.id=#{id};
+    </select>
 </mapper>

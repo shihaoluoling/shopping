@@ -17,26 +17,26 @@ public class HfOrderLogistics {
     @ApiModelProperty(name = "Lid")
     private Integer id;
 
-    @ApiModelProperty(name = "ordersIdLogistics")
+    @ApiModelProperty(value = "订单id")
     private Integer ordersId;
-
+    @ApiModelProperty(value = "订单详情id")
     private Integer orderDetailId;
-
+    @ApiModelProperty(value = "用户id")
     private Integer userId;
-
+    @ApiModelProperty(value = "用户地址id")
     private Integer userAddressId;
-    @ApiModelProperty(name = "googsIdLogistics")
+    @ApiModelProperty(name = "googsIdLogistics",value = "物品id")
     private Integer googsId;
-
+    @ApiModelProperty(value = "物流名称")
     private String logisticsOrderName;
 
-    @ApiModelProperty(name = "respIdLogistics")
+    @ApiModelProperty(name = "respIdLogistics",value = "仓库id")
     private Integer respId;
-
+    @ApiModelProperty(value = "物流订单号")
     private String logisticsOrdersId;
-
+    @ApiModelProperty(value = "物流公司")
     private String logisticsCompany;
-    @ApiModelProperty(name = "hfDescLogistics")
+    @ApiModelProperty(name = "hfDescLogistics",value = "物流描述")
     private String hfDesc;
 
     @ApiModelProperty(name = "createTimeLogistics")
@@ -45,11 +45,21 @@ public class HfOrderLogistics {
     @ApiModelProperty(name = "modifyTimeLogistics")
     private LocalDateTime modifyTime;
 
-    @ApiModelProperty(name = "lastModifierLogistics")
+    @ApiModelProperty(name = "lastModifierLogistics",value = "最后一次修改人")
     private String lastModifier;
 
     @ApiModelProperty(name = "idDeletedLogistics")
     private Short isDeleted;
+    @ApiModelProperty(value = "取货方式id")
+    private Integer claimId;
+
+    public Integer getClaimId() {
+        return claimId;
+    }
+
+    public void setClaimId(Integer claimId) {
+        this.claimId = claimId;
+    }
 
     public Integer getId() {
         return id;

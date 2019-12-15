@@ -15,29 +15,29 @@ public class HfOrdersDetail {
     @Id
     @ApiModelProperty(name = "Did")
     private Integer id;
-
+    @ApiModelProperty(value = "订单id")
     private Integer ordersId;
-
+    @ApiModelProperty(value = "仓库id")
     private Integer respId;
-
+    @ApiModelProperty(value = "订单详情状态")
     private String orderDetailStatus;
-
+    @ApiModelProperty(value = "物品id")
     private Integer googsId;
-
+    @ApiModelProperty(value = "税金")
     private Integer hfTax;
-
+    @ApiModelProperty(value = "购买价格")
     private Integer purchasePrice;
-
+    @ApiModelProperty(value = "购买数量")
     private Integer purchaseQuantity;
-
+    @ApiModelProperty(value = "配送方式")
     private String distribution;
-
+    @ApiModelProperty(value = "订单描述")
     private String hfDesc;
 
     private LocalDateTime createTime;
 
     private LocalDateTime modifyTime;
-
+    @ApiModelProperty(value = "最后一次修改人")
     private String lastModifier;
 
     private Short isDeleted;

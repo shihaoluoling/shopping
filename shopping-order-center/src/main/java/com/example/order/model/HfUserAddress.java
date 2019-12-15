@@ -1,5 +1,6 @@
 package com.example.order.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import tk.mybatis.mapper.annotation.KeySql;
 
 import javax.persistence.GeneratedValue;
@@ -12,29 +13,29 @@ public class HfUserAddress {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Integer id;
-
+    @ApiModelProperty(value = "用户id")
     private Integer userId;
-
+    @ApiModelProperty(value = "是否为默认地址")
     private Integer isFaultAddress;
 
     private String hfProvince;
 
     private String hfCity;
-
+    @ApiModelProperty(value = "县/区")
     private String hfConty;
-
+    @ApiModelProperty(value = "详情地址")
     private String hfAddressDetail;
-
+    @ApiModelProperty(value = "联系人")
     private String contact;
-
+    @ApiModelProperty(value = "联系电话")
     private String phoneNumber;
-
+    @ApiModelProperty(value = "备注")
     private String hfDesc;
 
     private Date createTime;
 
     private Date modifyTime;
-
+    @ApiModelProperty(value = "最后一次修改人")
     private String lastModifier;
 
     private Short isDeleted;

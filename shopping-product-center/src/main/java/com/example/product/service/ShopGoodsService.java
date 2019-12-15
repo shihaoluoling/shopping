@@ -4,6 +4,7 @@ import com.example.product.dao.ShopGoodsAllMapper;
 import com.example.product.model.HfBrand;
 import com.example.product.model.HfCategory;
 import com.example.product.model.HfGoods;
+import com.example.product.model.ShoppingGoodsAll;
 
 import java.util.List;
 
@@ -19,4 +20,10 @@ public interface ShopGoodsService {
     List<ShopGoodsAllMapper> SelectGoodsAll();
     //删除商品信息
     int deleteGoodsAll(int GoodsId);
+//类别查询
+    List<ShoppingGoodsAll> selectCategory(int CategoryId);
+//商品数量查询
+    int selectQuantity();
+//单个商品详情
+    List<ShoppingGoodsAll> orderParticulars(int goodsId);
 }

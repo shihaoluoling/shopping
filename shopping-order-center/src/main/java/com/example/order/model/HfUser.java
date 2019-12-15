@@ -16,33 +16,33 @@ public class HfUser {
     @Id
     @ApiModelProperty(name = "Uid")
     private Integer id;
-
+    @ApiModelProperty(value = "用户名")
     private String username;
-
+    @ApiModelProperty(value = "电话号码")
     private String phone;
-
+    @ApiModelProperty(value = "邮箱地址")
     private String email;
-
+    @ApiModelProperty(value = "用户来源")
     private String sourceType;
-
+    @ApiModelProperty(value = "昵称")
     private String nickName;
-
+    @ApiModelProperty(value = "真实姓名")
     private String realName;
-
+    @ApiModelProperty(value = "性别0女1男")
     private Byte sex;
-
+    @ApiModelProperty(value = "出生时间")
     private Date birthDay;
-
+    @ApiModelProperty(value = "用户状态")
     private Byte userStatus;
-
+    @ApiModelProperty(value = "头像地址id")
     private Integer fileId;
-
+    @ApiModelProperty(value = "用户地址")
     private String address;
-
+    @ApiModelProperty(value = "用户等级")
     private Byte userLevel;
-
+    @ApiModelProperty(value = "最后一次登录时间")
     private Date lastAuthTime;
-
+    @ApiModelProperty(value = "地区")
     private String region;
 
     private LocalDateTime createDate;

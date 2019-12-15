@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -28,6 +29,10 @@ public class OrdersServiceImpl implements OrdersService {
     HfOrderStatusMapper hfOrderStatusMapper;
     @Autowired
     ShopOrderUserMapper shopOrderUserMapper;
+    @Autowired
+    ShopOrderSelectMapper shopOrderSelectMapper;
+    @Autowired
+    CancelMapper cancelMapper;
 
 
     @Override
@@ -93,6 +98,26 @@ public int updateUser(HfOrders hfOrder) {
     @Override
     public List<HfUser> OrderYesterday() {
         return shopOrderSelect.OrderYesterday();
+    }
+
+    @Override
+    public List<HfUser> orderHebdomad() {
+        return shopOrderSelectMapper.orderHebdomad();
+    }
+
+    @Override
+    public List<HfUser> selectMonth() {
+        return shopOrderSelectMapper.selectMonth();
+    }
+
+    @Override
+    public List<HfUser> SelectTime(Date createTime, Date createTime2) {
+        return shopOrderSelectMapper.SelectTime(createTime,createTime2);
+    }
+
+    @Override
+    public Cancel cancel(int id) {
+        return cancelMapper.cancel(id);
     }
 
 }

@@ -6,6 +6,8 @@ import com.example.order.model.OneOrder;
 import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.common.Mapper;
 
+import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.List;
 
 @org.apache.ibatis.annotations.Mapper
@@ -17,4 +19,7 @@ public interface ShopOrderSelectMapper extends Mapper<HfUser> {
     List<HfUser> selectOrderOne(OneOrder oneOrder);
     List<HfUser> OrdertoDay();
     List<HfUser>OrderYesterday();
+    List<HfUser> orderHebdomad();
+    List<HfUser> selectMonth();
+    List<HfUser> SelectTime(@Param("createTime") Date createTime,@Param("createTime2") Date createTime2);
 }

@@ -1,9 +1,15 @@
 package com.example.order.model;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class OneOrder {
+    @ApiModelProperty(value = "订单id")
     private int ordersId;
+    @ApiModelProperty(value = "商品名称")
     private String hfName;
+    @ApiModelProperty(value = "支付方式类型")
     private int payMethodType;
+    @ApiModelProperty(value = "订单详情状态")
     private String orderDetailStatus;
 
     public int getOrdersId() {

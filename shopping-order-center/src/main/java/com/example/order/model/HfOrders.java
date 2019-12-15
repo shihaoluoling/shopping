@@ -16,29 +16,29 @@ public class HfOrders {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Integer id;
-
+    @ApiModelProperty(value = "用户id")
     private Integer userId;
-
+    @ApiModelProperty(value = "支付状态")
     private Integer payStatus;
-
+    @ApiModelProperty(value = "订单类型")
     private String orderType;
-
+    @ApiModelProperty(value = "支付金额")
     private Integer amount;
-
+    @ApiModelProperty(value = "支付方式类型")
     private Integer payMethodType;
-
+    @ApiModelProperty(value = "支付附言")
     private String hfMemo;
-
+    @ApiModelProperty(value = "备注")
     private String hfRemark;
-
+    @ApiModelProperty(value = "支付方式名称")
     private String payMethodName;
-
+    @ApiModelProperty(value = "添加时间")
     private LocalDateTime createTime;
-
+    @ApiModelProperty(value = "修改时间")
     private LocalDateTime modifyTime;
-
+    @ApiModelProperty(value = "最后一次修改人")
     private String lastModifier;
-
+    @ApiModelProperty(value = "是否失效")
     private Short isDeleted;
 
 

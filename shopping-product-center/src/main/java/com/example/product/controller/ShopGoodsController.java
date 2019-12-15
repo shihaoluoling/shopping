@@ -68,6 +68,7 @@ public class ShopGoodsController {
         BodyBuilder builder = ResponseUtils.getBodyBuilder(HttpStatus.OK);
         return builder.body(ResponseUtils.getResponseBody(shopGoodsService.selectGoods()));
     }
+
     @ApiOperation(value = "上传图片", notes = "上传图片")
     @PostMapping(value = "/getImg")
     public ResponseEntity<JSONObject> getImg(MultipartFile fileInfo, FileDesc fileDesc2,HfGoodsPictrue hfGoodsPictrue2) throws JSONException, IOException {
@@ -500,6 +501,26 @@ public class ShopGoodsController {
         BodyBuilder builder = ResponseUtils.getBodyBuilder(HttpStatus.OK);
         return builder.body(ResponseUtils.getResponseBody(shopGoodsService.SelectGoodsAll()));
     }
+    @ApiOperation(value = "商品详情", notes = "商品详情")
+    @RequestMapping(value = "/orderParticulars", method = RequestMethod.GET)
+    @ApiImplicitParam(paramType = "query", name = "goodsId", value = "物品id", required = true, type = "Integer")
+    public ResponseEntity<JSONObject> orderParticulars(int goodsId) throws JSONException {
+        BodyBuilder builder = ResponseUtils.getBodyBuilder(HttpStatus.OK);
+        return builder.body(ResponseUtils.getResponseBody(shopGoodsService.orderParticulars(goodsId)));
+    }
+    @ApiOperation(value = "类别查询商品", notes = "类别查询商品")
+    @RequestMapping(value = "/SelectCat", method = RequestMethod.GET)
+    public ResponseEntity<JSONObject> selectCategory(int CategoryId) throws JSONException {
+        BodyBuilder builder = ResponseUtils.getBodyBuilder(HttpStatus.OK);
+        return builder.body(ResponseUtils.getResponseBody(shopGoodsService.selectCategory(CategoryId)));
+    }
+    @ApiOperation(value = "查询商品数量", notes = "查询商品数量")
+    @RequestMapping(value = "/selectQuantity", method = RequestMethod.GET)
+    public ResponseEntity<JSONObject> selectQuantity() throws JSONException {
+        BodyBuilder builder = ResponseUtils.getBodyBuilder(HttpStatus.OK);
+        return builder.body(ResponseUtils.getResponseBody(shopGoodsService.selectQuantity()));
+    }
+
     @ApiOperation(value = "删除全部信息商品goods", notes = "删除全部信息商品goods")
     @RequestMapping(value = "/deleteGoodsAll", method = RequestMethod.GET)
     @ApiImplicitParams({

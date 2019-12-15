@@ -1,5 +1,6 @@
 package com.example.order.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import tk.mybatis.mapper.annotation.KeySql;
 
 import javax.persistence.GeneratedValue;
@@ -13,11 +14,11 @@ public class HfOrderStatus {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Integer id;
-
+    @ApiModelProperty(value = "订单状态名称")
     private String hfName;
-
+    @ApiModelProperty(value = "订单状态")
     private Integer hfStatus;
-
+    @ApiModelProperty(value = "订单状态描述")
     private String hfDesc;
 
     private LocalDateTime createTime;

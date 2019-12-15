@@ -62,4 +62,19 @@ public class ShopGoodsServiceImpl implements ShopGoodsService {
     public int deleteGoodsAll(int GoodsId) {
         return shopGoodsAllMapper.deleteGoodsAll(GoodsId);
     }
+
+    @Override
+    public List<ShoppingGoodsAll> selectCategory(int CategoryId) {
+        return shopGoodsAllMapper.selectCategory(CategoryId);
+    }
+
+    @Override
+    public int selectQuantity() {
+        return shopGoodsAllMapper.selectQuantity();
+    }
+
+    @Override
+    public List<ShoppingGoodsAll> orderParticulars(int goodsId) {
+        return shopGoodsAllMapper.orderParticulars(goodsId);
+    }
 }
